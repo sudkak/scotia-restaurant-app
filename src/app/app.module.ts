@@ -10,6 +10,8 @@ import { RestaurantMenuDescriptionComponent } from './restaurant-menu-descriptio
 
 import { DishDetailService } from "./dish-detail.service";
 import { DISH_ITEMS } from "./dish-items";
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -17,7 +19,9 @@ import { DISH_ITEMS } from "./dish-items";
     AppComponent,
     RestaurantHomeComponent,
     RestaurantMenuComponent,
-    RestaurantMenuDescriptionComponent
+    RestaurantMenuDescriptionComponent,
+    HeaderComponent,
+    FooterComponent
 
   ],
   imports: [

@@ -1,0 +1,28 @@
+.footer-content-block {
+    float: left;
+}
+.footer-cover-block {
+    background: #afafaf;
+    display: flex;
+    padding:1rem 0;
+}
+.footer-content-block ul {
+    list-style: none;
+}
+.footer-links {
+    padding: 0;
+    margin-top: 6rem;
+}
+.footer-links li{
+    float: left;
+    margin: 0 0.2rem;
+}
+.copy-text {
+    text-align:center;
+}
+.footer-content-block p {
+    margin-bottom:0;
+}
+.footer-menu-links {
+    margin-left: 2.4rem;
+}

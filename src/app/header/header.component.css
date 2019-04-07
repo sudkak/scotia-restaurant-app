@@ -1,0 +1,21 @@
+.bg-dark {
+    background-color: #233898 !important;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+.navbar-expand-sm .navbar-nav .nav-link {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.navbar {
+    padding: 0 1rem;
+}
+li.nav-item:hover, li.nav-item.active{
+    background:#171b74;
+}
+li.nav-item i {
+    margin: 0 5px 0 2px;
+}

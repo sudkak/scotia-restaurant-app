@@ -3,8 +3,18 @@
   color:white;
 }
 
-.footer{
-  background-color:  grey
+.jumbotron {
+  background: #7884cd;
+}
+.inner-content h1 {
+  text-align: left;
+  color: #fff;
+}
+.inner-content p {
+  text-align: left;
+  color: #fff;
+  width: 50%;
+  padding-top: 5rem;
 }
 
 .row-content {
@@ -12,3 +22,37 @@
   padding: 20px 10px 20px 10px;
   border-bottom: 1.5px;
 }
+
+.main-content {
+  float: left;
+  padding: 0;
+}
+.sub-contnet {
+  float: left;
+  padding: 0;
+}
+.inner-content-block .container{
+  border-top: 1px solid #ccc;
+  display: flex;
+  padding: 3rem 0;
+}
+.sub-contnet h3 {
+  margin: 1.5rem 0 0 0;
+  text-align: center;
+}
+.menu-container {
+  border-top: 1px solid #ccc;
+  padding: 0;
+  padding-top: 1rem;
+  padding-bottom: 4rem;
+}
+.menu-container h3 {
+  margin-top: 1rem;
+  margin-bottom:1rem;
+}
+.menu-container .row-content {
+  padding:0;
+}
+.menu-container .col-md-12 {
+  padding:0;
+} 
