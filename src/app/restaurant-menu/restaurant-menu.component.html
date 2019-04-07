@@ -1,0 +1,17 @@
+<div class="card-deck">
+    <div *ngFor="let item of items">
+  <div class="card" style="width: 15rem;">
+      <div  (click)="selectItem(item)">
+      <img  class="card-img-top " src="{{item.image}}" alt="Card image cap" >
+    </div>
+      <div class="card-body">
+          <h5 class="card-title">{{item.name}}</h5>
+      </div>
+    </div>
+   </div>
+  </div>
+
+
+
+
+
